@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrenheit Coffee & Roastery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div>
+            <img class="logo" src="assets/logo/Logo-blk-smol.png" alt="Logo nav">
+        </div>
+
+        <button class="mobile-toggle" aria-controls="primary-nav" aria-expanded="false">
+            <span class="sr-hidden">Menu</span>
+        </button>
+
+        <nav id="primary-nav" data-visible="false" class="primary-nav">
+            <ul class="nav-list ">
+                <li><a href="#story">Story</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>   
+<main>
+    
+    <!-- Hero image -->
+    <article class="hero">
+            <img class="hero-img" src="assets/logo/logo-wht-full.png" alt="logo white full">
+    </article>
+
+    <!-- Story  -->
+    <article id="story">
+        <div class="container">
+            <div >
+                <!-- gambar -->
+                <img src="assets/pict/cafe-pict.png" alt="cafe picture">
+            </div>
+            <div class="card-text">
+                <h2>Our Story</h2>
+                <p>Fahrenheit started as a small roastery located in Jakarta which was created in 2016. Two years later the first cafe was established and managed to open 3 branches.</p>
+                <button class="cta">Read more</button>
+            </div>
+        </div>
+    </article>
+
+    <!-- Blank bg with text -->
+    <article>
+        <div class="container blank-bg">
+            <span class="text-box">COFFEE BREWS MADE WITH LOVE, PASSION, AND METICULOUS ATTENTION TO DETAIL</span>
+        </div>
+    </article>
+
+    <!-- Location -->
+    <article id="location">
+        <div class="container">
+            <div class="card-img">
+                <!-- gambar -->
+                <img src="assets/pict/cafe-interior.jpg" alt="cafe interior">
+            </div>
+            <div class="card-text">
+                <h2>Location</h2>
+                <p>Fahrenheit has 3 branches, two are located in Jakarta and one is located in Bekasi.</p>
+                <button class="cta">Read more</button>
+            </div>
+        </div>
+    </article>
+
+    <!-- Menu -->
+    <article id="menu" class="products"> 
+        <div class="container column">
+            <h2 class="product-title">Menu</h2>
+            <button id="btn-prev" class="btn-prev"><img src="assets/pict/arrow.png" alt="button previous"></button>
+            <button id="btn-next" class="btn-next"><img src="assets/pict/arrow.png" alt="button next"></button>
+            <div id="product-container" class="product-container">
+                <div class="product-card">
+                    <img class="product-image" src="assets/pict/manual-brew.jpg" alt="manual brew picture">
+                    <div class="product-desc">
+                        <p>Manual Brew</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="product-image" src="assets/pict/v60.jpg" alt="manual brew picture">
+                    <div class="product-desc">
+                        <p>Speciality Coffee</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="product-image" src="assets/pict/chocolate-smoothie.jpg" alt="manual brew picture">
+                    <div class="product-desc">
+                        <p>Non-Coffee</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="product-image" src="assets/pict/coffe-bag.png" alt="manual brew picture">
+                    <div class="product-desc">
+                        <p>Coffee Beans</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img class="product-image" src="assets/pict/pasrty.png" alt="manual brew picture">
+                    <div class="product-desc">
+                        <p>Pastry</p>
+                    </div>
+                </div>
+            </div>
+            <button class="cta">All menu</button>
+        </div>
+    </article>
+
+    <!-- Biodata -->
+    <aside id="about">
+        <div class="container center-content">
+            <div>
+                <img class="bio-pict"src="assets/pict/farhan_ap.png" alt="foto biodata">
+            </div>
+            <div class="card-text">
+                <div class="bio-header">
+                    <h2>Farhan Adika Prastowo</h2>
+                    <p>CEO of Fahrenheit C&R</p>
+                </div>
+                <ul class="bio-list column">
+                    <li>
+                        <img class="icon-bio" src="assets/Icon/email.svg" alt="email">
+                        <p>farhanganteng1704@gmail.com</p> 
+                    </li>
+                    <li>
+                        <img class="icon-bio" src="assets/Icon/phone.svg" alt="">
+                        <p>+62 81585057853</p>
+                    </li>
+                    <li>
+                        <img class="icon-bio" src="assets/Icon/location.svg" alt="">
+                        <p>Bekasi Selatan</p>
+                    </li>
+                </ul>
+                <ul class="bio-list row">
+                    <li class="social-logo-adjust"><a href="https://www.linkedin.com/in/farhan-adika-prastowo-7a9775217" target="_blank"><img class="icon-bio" src="assets/Icon/linkedin-blk.svg" alt="linkedIn logo black"></a></li>
+                    <li class="social-logo-adjust"><a href="https://twitter.com/Fluorine_heit" target="_blank"><img class="icon-bio" src="assets/Icon/twt-blk.svg" alt="Twitter logo black"></a></li>
+                    <li class="social-logo-adjust"><a href="https://www.instagram.com/fluorine_heit/" target="_blank"><img class="icon-bio" src="assets/Icon/ig-blk.svg" alt="Instagram logo black"></a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+</main>
+
+<footer>
+    <section class="container gap">
+        <div class="footer-logo">
+            <img class="logo" src="assets/logo/Logo-blk-smol.png" alt="">
+        </div>
+        <div class="footer-links">
+            <span class="footer-title">Site Links</span> 
+            <ul class="footer-list">
+                <li class="footer-nav"><a href="#story">Story</a></li>
+                <li class="footer-nav"><a href="#menu">Menu</a></li>
+                <li class="footer-nav"><a href="#location">Location</a></li>
+                <li class="footer-nav"><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="footer-addr">
+            <span class="footer-title">Address</span> 
+                <p>FAHRENHEIT C&R HQ</p> 
+                <p>Jl. Fiksi No.1C, RT.10/RW.12, Cibadak., Kec. Ps. Sabtu, Kota Jakarta Tenggara, Daerah Khusus Ibukota Jakarta 12345</p>
+        </div>
+        <div class="footer-time">
+           <span class="footer-title">Opening hours</span>
+           <div>
+               <p>Monday - Friday</p>
+               <p>8:00 am to 9:00 pm</p>
+           </div> 
+           <div>
+               <p>Saturday - Sunday</p>
+               <p>9:00 am to 11:00 pm</p>
+           </div>
+        </div>
+    </section>
+    <section class="container copyright row">
+        <p>&copy;2016 - 2022 FAHRENHEIT COFFEE AND ROASTERY - All rights reserved!</p>
+        <p>hello@fahrenheit_cr.co.id</p>
+    </section>
+</footer>
+    <script src="main.js"></script>
+</body>
+</html>
